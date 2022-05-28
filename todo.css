@@ -1,0 +1,108 @@
+html {
+    height: auto;
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s124-ak-3078_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6e5c8f75c145acffc4169cbf62ce1791);
+    font-family: sans-serif;
+    color: #0f222d;
+}
+
+.container {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 40px;
+    text-shadow: #2A3D4E 1px 1px, #2A3D4E -0px 0px, #2A3D4E -1px 1px, #2A3D4E -2px 2px, #2A3D4E -3px 3px, #2A3D4E -4px 4px, #2A3D4E -5px 5px, #2A3D4E -6px 6px, #2A3D4E -7px 7px, #2A3D4E -8px 8px, #2A3D4E -9px 9px;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+}
+
+button {
+    font-size: 2em;
+    color: #53BDFF;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 100px;
+    margin-left: 300px;
+
+}
+
+button:hover {
+    background-color: #53BDFF;
+    color: white;
+    border-radius: 15px;
+}
+
+.list {
+
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.remove {
+    background-color: red;
+    padding: 03px 5px 03px 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 0.7em;
+    margin-left: 500px;
+}
+.check {
+    margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin: auto;
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    button {
+        width: 10%;
+    }
+}
